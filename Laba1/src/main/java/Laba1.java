@@ -1,5 +1,3 @@
-import java.io.File;
-
 /**
  * @author Senyk Dmytro
  * @version 0.2
