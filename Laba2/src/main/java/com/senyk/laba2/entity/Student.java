@@ -7,6 +7,9 @@ import com.senyk.laba2.enums.Level;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * enyity клас студента
+ */
 public class Student {
     private static int current_id;
     private int id;

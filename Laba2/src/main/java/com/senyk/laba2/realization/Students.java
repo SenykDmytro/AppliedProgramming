@@ -9,6 +9,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Утворення масиву обєктів Student
+ */
 public class Students {
     private List<Student> students;
 
@@ -28,6 +31,10 @@ public class Students {
         this.students = students;
     }
 
+    /**
+     * Метод генерує масив обєктів
+     * @param N кількість елементів
+     */
     public void generateNStudents(int N) {
         List<Student> list =new ArrayList<>();
         String name="name_";
