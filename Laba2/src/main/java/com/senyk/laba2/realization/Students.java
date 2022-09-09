@@ -45,8 +45,13 @@ public class Students {
         int x=0;
         for (int i = 1; i <= N; i++) {
             Date birthday=Students.randomHireday();
-            Student s =new Student(name+i,surname+i,father_name+i,birthday,
-                    address+i,phone+i,Level.generateLevel(),Group.generateGroup());
+            Student s = null;
+            try {
+                s = new Student(name+i,surname+i,father_name+i,birthday,
+                        address+i,phone+i, Level.generateLevel(), Group.generateGroup());
+            } catch (Exception e) {
+                System.out.println("Wrong data");
+            }
             list.add(s);
         }
         this.students = list;

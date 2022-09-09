@@ -3,6 +3,7 @@ package com.senyk.laba2.realization;
 import com.senyk.laba2.entity.Student;
 import com.senyk.laba2.enums.Faculty;
 import com.senyk.laba2.enums.Group;
+import com.senyk.laba2.enums.Level;
 
 import java.util.Date;
 import java.util.List;
@@ -13,9 +14,8 @@ import java.util.stream.Collectors;
  * @version 0.1
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Students students=new Students(10);
-
         Group group=Group.generateGroup();
         Faculty faculty=group.getFaculty();
         Date date=Students.randomHireday();
@@ -23,6 +23,10 @@ public class Main {
         System.out.println(students);
         System.out.println("****************************************************************************************");
         printList(date,students);
+        System.out.println("****************************************************************************************");
+        printList(group,students);
+        System.out.println("****************************************************************************************");
+        printList(faculty,students);
     }
 
     /**

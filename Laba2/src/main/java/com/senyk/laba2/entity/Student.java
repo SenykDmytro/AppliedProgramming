@@ -24,8 +24,10 @@ public class Student {
     private Group group;
 
     public Student(String name, String surname, String father_name, Date birthday,
-                   String address, String phone, Level level, Group group) {
-
+                   String address, String phone, Level level, Group group) throws Exception {
+        if (name==null||surname==null||father_name==null
+                ||birthday==null||address==null||phone==null
+                ||level==null||group==null)throw new Exception();
         Student.current_id++;
         this.id=current_id;
         this.name = name;
@@ -39,16 +41,20 @@ public class Student {
         this.faculty= group.getFaculty();
     }
 
-    public void setAddress(String address) {
+    public void setAddress(String address) throws Exception {
+        if(address==null)throw new Exception();
         this.address = address;
     }
-    public void setPhone(String phone) {
+    public void setPhone(String phone) throws Exception {
+        if(address==null)throw new Exception();
         this.phone = phone;
     }
-    public void setLevel(Level level) {
+    public void setLevel(Level level) throws Exception {
+        if(level==null)throw new Exception();
         this.level = level;
     }
-    public void setGroup(Group group) {
+    public void setGroup(Group group) throws Exception {
+        if(group==null)throw new Exception();
         this.group = group;
         this.faculty = group.getFaculty();
     }
