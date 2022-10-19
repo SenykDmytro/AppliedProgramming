@@ -3,7 +3,6 @@ package com.senyk.laba2.realization;
 import com.senyk.laba2.entity.Student;
 import com.senyk.laba2.enums.Faculty;
 import com.senyk.laba2.enums.Group;
-import com.senyk.laba2.enums.Level;
 
 import java.util.Date;
 import java.util.List;
