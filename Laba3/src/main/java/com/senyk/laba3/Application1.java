@@ -7,6 +7,7 @@ import com.senyk.laba3.droid.model.Type;
 import com.senyk.laba3.droid.status.Status;
 
 import java.io.File;
+
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -19,6 +20,9 @@ public class Application1 {
     FileWriter fileWriter;
     Scanner scanner = new Scanner(System.in);
 
+    /**
+     * start game
+     */
     public void start(){
         System.out.println("Hello, gamer.");
         System.out.println("Now we will start a new game.");
@@ -49,6 +53,10 @@ public class Application1 {
         }}
         System.out.println("Your game end");
     }
+
+    /**
+     * load previous game
+     */
     private void loadPreviousGame(){
         try {
             scanner =new Scanner(fileURL);
@@ -61,6 +69,9 @@ public class Application1 {
         }
     }
 
+    /**
+     * start new match
+     */
     private void startNewGame(){
         if (listOfDroids.getDroidList().size()<2){
             System.out.println("Choose what you want(print number):");
@@ -110,6 +121,9 @@ public class Application1 {
 
     }
 
+    /**
+     * option for match team vs team
+     */
     private void TeamVsTeam(){
         if (listOfDroids.getDroidList().size()<4){
             System.out.println("Choose what you want(print number):");
@@ -154,6 +168,16 @@ public class Application1 {
             else System.out.println("first team win");
         }
     }
+
+    /**
+     * support method of TeamVsTeam
+     * @param team1
+     * @param team2
+     * @param queue
+     * @param round
+     * @return
+     * @throws DroidDeadException
+     */
     private int roundTeamVsTeam(Team team1, Team team2, int queue,Integer round) throws DroidDeadException {
         if (!team1.isStatus()|| !team2.isStatus()){
             return 0;
@@ -195,12 +219,22 @@ public class Application1 {
         }
         return 0;
     }
+
+    /**
+     * create teams
+     * @param team1
+     * @param team2
+     */
     private void createTeams(Team team1,Team team2){
         for (int i = 0; i < listOfDroids.getDroidList().size(); i++) {
             if(i%2==0) team1.addDroidToTeam(listOfDroids.getDroidList().get(i));
             else team2.addDroidToTeam(listOfDroids.getDroidList().get(i));
         }
     }
+
+    /**
+     * option for match one vs one
+     */
     private void OneVsOne(){
         int size =listOfDroids.getDroidList().size();
         Droid droidFirst=null;
@@ -285,6 +319,10 @@ public class Application1 {
             e.printStackTrace();
         }
     }
+
+    /**
+     * create new droids
+     */
     private void createNewDroids(){
         System.out.println("How many droids you want create?(min 2)");
         int droids= scanner.nextInt();
@@ -332,6 +370,10 @@ public class Application1 {
         }
 
     }
+
+    /**
+     * load droids
+     */
     private void loadDroids(){
         try {
             listOfDroids=new ListOfDroids();

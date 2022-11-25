@@ -1,56 +1,68 @@
 Game:One vs One:
-first droid:01TK0000000000000000002
-second droid:01UN0000000000000000003
+first droid:01TK0000000000000000001
+second droid:01TK0000000000000000002
 Start:
-attacker:first droid
-second droid get 56damage
-attacker:second droid
-first droid get 57damage
-attacker:first droid
-second droid get 59damage
-attacker:second droid
-first droid get 53damage
-attacker:first droid
-second droid get 59damage
-attacker:second droid
-first droid get 55damage
-attacker:first droid
-second droid get 59damage
-attacker:second droid
-first droid get 54damage
 attacker:first droid
 second droid get 58damage
 attacker:second droid
-first droid get 57damage
-attacker:first droid
-second droid get 59damage
-attacker:second droid
-first droid get 57damage
-attacker:first droid
-second droid get 57damage
-attacker:second droid
-first droid get 57damage
-attacker:first droid
-second droid get 57damage
-attacker:second droid
 first droid get 54damage
 attacker:first droid
-second droid get 60damage
-attacker:second droid
-first droid get 54damage
-attacker:first droid
-second droid get 60damage
-attacker:second droid
-first droid get 57damage
-attacker:first droid
-second droid get 59damage
-attacker:second droid
-first droid get 57damage
-attacker:first droid
-second droid get 56damage
+second droid get 54damage
 attacker:second droid
 first droid get 55damage
 attacker:first droid
+second droid get 60damage
+attacker:second droid
+first droid get 56damage
+attacker:first droid
+second droid get 56damage
+attacker:second droid
+first droid get 52damage
+attacker:first droid
+second droid get 60damage
+attacker:second droid
+first droid get 50damage
+attacker:first droid
 second droid get 57damage
+attacker:second droid
+first droid get 56damage
+attacker:first droid
+second droid get 60damage
+attacker:second droid
+first droid get 55damage
+attacker:first droid
+second droid get 60damage
+attacker:second droid
+first droid get 59damage
+attacker:first droid
+second droid get 56damage
+attacker:second droid
+first droid get 50damage
+attacker:first droid
+second droid get 56damage
+attacker:second droid
+first droid get 59damage
+attacker:first droid
+second droid get 57damage
+attacker:second droid
+first droid get 52damage
+attacker:first droid
+second droid get 57damage
+attacker:second droid
+first droid get 54damage
+attacker:first droid
+second droid get 54damage
+attacker:second droid
+first droid get 59damage
+attacker:first droid
+second droid get 57damage
+attacker:second droid
+first droid get 59damage
+attacker:first droid
+second droid get 53damage
+attacker:second droid
+first droid get 59damage
+attacker:first droid
+second droid get 54damage
 End of match
 first droid is winner

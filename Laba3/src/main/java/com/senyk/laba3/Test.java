@@ -1,14 +1,7 @@
 package com.senyk.laba3;
 
-import com.senyk.laba3.droid.Droid;
-import com.senyk.laba3.droid.exceptions.DroidDeadException;
-import com.senyk.laba3.droid.exceptions.WrongDataValue;
 import com.senyk.laba3.droid.model.Type;
-import com.senyk.laba3.droids.Tank;
-import com.senyk.laba3.droids.Universal;
 
-import java.io.FileWriter;
-import java.io.IOException;
 
 public class Test {
     public static void main(String[] args) {

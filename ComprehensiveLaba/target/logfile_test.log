@@ -1,0 +1,101 @@
+2022-11-25 01:05:35 INFO  ApplicationTest - Starting ApplicationTest using Java 16.0.2 on MacBook-Air-Dmytro.local with PID 49552 (/Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba/target/classes started by dmytrosenyk in /Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba)
+2022-11-25 01:05:35 DEBUG ApplicationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-25 01:05:35 INFO  ApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2022-11-25 01:05:39 INFO  GemService - add gem try
+2022-11-25 01:05:39 INFO  GemService - successful adding
+2022-11-25 01:05:39 INFO  GemService - add gem try
+2022-11-25 01:05:39 INFO  GemService - successful adding
+2022-11-25 01:05:39 INFO  GemService - add gem try
+2022-11-25 01:05:39 INFO  GemService - successful adding
+2022-11-25 01:05:39 INFO  GemService - add gem try
+2022-11-25 01:05:39 INFO  GemService - successful adding
+2022-11-25 01:05:39 INFO  GemService - add gem try
+2022-11-25 01:05:39 INFO  GemService - successful adding
+2022-11-25 01:05:39 INFO  GemService - add gem try
+2022-11-25 01:05:39 INFO  GemService - successful adding
+2022-11-25 01:06:01 INFO  GemService - add gem try
+2022-11-25 01:06:01 INFO  GemService - successful adding
+2022-11-25 01:26:32 INFO  ApplicationTest - Starting ApplicationTest using Java 16.0.2 on MacBook-Air-Dmytro.local with PID 50307 (/Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba/target/classes started by dmytrosenyk in /Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba)
+2022-11-25 01:26:32 DEBUG ApplicationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-25 01:26:32 INFO  ApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2022-11-25 01:26:35 INFO  GemService - add gem try
+2022-11-25 01:26:35 INFO  GemService - successful adding
+2022-11-25 01:26:35 INFO  GemService - add gem try
+2022-11-25 01:26:35 INFO  GemService - successful adding
+2022-11-25 01:26:35 INFO  GemService - add gem try
+2022-11-25 01:26:35 INFO  GemService - successful adding
+2022-11-25 01:26:35 INFO  GemService - add gem try
+2022-11-25 01:26:35 INFO  GemService - successful adding
+2022-11-25 01:26:35 INFO  GemService - add gem try
+2022-11-25 01:26:35 INFO  GemService - successful adding
+2022-11-25 01:26:35 INFO  GemService - add gem try
+2022-11-25 01:26:35 INFO  GemService - successful adding
+2022-11-25 01:26:43 INFO  NecklaceService - implement necklace try
+2022-11-25 01:26:43 ERROR NecklaceService - failing
+2022-11-25 01:41:27 INFO  ApplicationTest - Starting ApplicationTest using Java 16.0.2 on MacBook-Air-Dmytro.local with PID 50796 (/Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba/target/classes started by dmytrosenyk in /Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba)
+2022-11-25 01:41:27 DEBUG ApplicationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-25 01:41:27 INFO  ApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2022-11-25 01:41:30 INFO  GemService - add gem try
+2022-11-25 01:41:30 INFO  GemService - successful adding
+2022-11-25 01:41:30 INFO  GemService - add gem try
+2022-11-25 01:41:30 INFO  GemService - successful adding
+2022-11-25 01:41:30 INFO  GemService - add gem try
+2022-11-25 01:41:30 INFO  GemService - successful adding
+2022-11-25 01:41:30 INFO  GemService - add gem try
+2022-11-25 01:41:30 INFO  GemService - successful adding
+2022-11-25 01:41:30 INFO  GemService - add gem try
+2022-11-25 01:41:30 INFO  GemService - successful adding
+2022-11-25 01:41:30 INFO  GemService - add gem try
+2022-11-25 01:41:30 INFO  GemService - successful adding
+2022-11-25 01:41:30 INFO  SketchService - create sketch try
+2022-11-25 01:41:30 INFO  SketchService - successful creating
+2022-11-25 01:41:30 INFO  SketchService - add gem to sketch try
+2022-11-25 01:41:30 INFO  SketchService - successful adding
+2022-11-25 01:41:30 INFO  SketchService - add gem to sketch try
+2022-11-25 01:41:30 INFO  SketchService - successful adding
+2022-11-25 01:41:54 INFO  GemService - remove gem try
+2022-11-25 01:41:54 INFO  GemService - successful removing
+2022-11-25 01:43:13 INFO  ApplicationTest - Starting ApplicationTest using Java 16.0.2 on MacBook-Air-Dmytro.local with PID 50822 (/Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba/target/classes started by dmytrosenyk in /Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba)
+2022-11-25 01:43:13 DEBUG ApplicationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-25 01:43:13 INFO  ApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2022-11-25 01:43:16 INFO  GemService - add gem try
+2022-11-25 01:43:16 INFO  GemService - successful adding
+2022-11-25 01:43:16 INFO  GemService - add gem try
+2022-11-25 01:43:16 INFO  GemService - successful adding
+2022-11-25 01:43:16 INFO  GemService - add gem try
+2022-11-25 01:43:16 INFO  GemService - successful adding
+2022-11-25 01:43:16 INFO  GemService - add gem try
+2022-11-25 01:43:16 INFO  GemService - successful adding
+2022-11-25 01:43:16 INFO  GemService - add gem try
+2022-11-25 01:43:16 INFO  GemService - successful adding
+2022-11-25 01:43:16 INFO  GemService - add gem try
+2022-11-25 01:43:16 INFO  GemService - successful adding
+2022-11-25 01:43:16 INFO  SketchService - create sketch try
+2022-11-25 01:43:16 INFO  SketchService - successful creating
+2022-11-25 01:43:16 INFO  SketchService - add gem to sketch try
+2022-11-25 01:43:16 INFO  SketchService - successful adding
+2022-11-25 01:43:16 INFO  SketchService - add gem to sketch try
+2022-11-25 01:43:16 INFO  SketchService - successful adding
+2022-11-25 01:43:36 INFO  GemService - remove gem try
+2022-11-25 01:43:36 ERROR GemService - failing
+2022-11-25 02:23:18 INFO  ApplicationTest - Starting ApplicationTest using Java 16.0.2 on MacBook-Air-Dmytro.local with PID 51933 (/Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba/target/classes started by dmytrosenyk in /Users/dmytrosenyk/Desktop/AppliedProgramming/ComprehensiveLaba)
+2022-11-25 02:23:18 DEBUG ApplicationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-25 02:23:18 INFO  ApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2022-11-25 02:23:23 INFO  GemService - add gem try
+2022-11-25 02:23:23 INFO  GemService - successful adding
+2022-11-25 02:23:23 INFO  GemService - add gem try
+2022-11-25 02:23:23 INFO  GemService - successful adding
+2022-11-25 02:23:23 INFO  GemService - add gem try
+2022-11-25 02:23:23 INFO  GemService - successful adding
+2022-11-25 02:23:23 INFO  GemService - add gem try
+2022-11-25 02:23:23 INFO  GemService - successful adding
+2022-11-25 02:23:23 INFO  GemService - add gem try
+2022-11-25 02:23:23 INFO  GemService - successful adding
+2022-11-25 02:23:23 INFO  GemService - add gem try
+2022-11-25 02:23:23 INFO  GemService - successful adding
+2022-11-25 02:23:23 INFO  SketchService - create sketch try
+2022-11-25 02:23:23 INFO  SketchService - successful creating
+2022-11-25 02:23:23 INFO  SketchService - add gem to sketch try
+2022-11-25 02:23:23 INFO  SketchService - successful adding
+2022-11-25 02:23:23 INFO  SketchService - add gem to sketch try
+2022-11-25 02:23:23 INFO  SketchService - successful adding

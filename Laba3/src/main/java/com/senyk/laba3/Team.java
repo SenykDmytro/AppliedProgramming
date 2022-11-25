@@ -6,6 +6,9 @@ import com.senyk.laba3.droid.status.Status;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * container of list droids of team
+ */
 public class Team {
     private String name;
     private List<Droid> team=new ArrayList<>();

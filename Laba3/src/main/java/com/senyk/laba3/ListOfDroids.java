@@ -10,6 +10,9 @@ import com.senyk.laba3.droids.Warrior;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * container of droids
+ */
 public class ListOfDroids {
     private List<Droid> droidList=new ArrayList<>();
 
